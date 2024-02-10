@@ -1,0 +1,64 @@
+.focus-on {
+  font-size: 12px !important;
+  top: 8px;
+}
+
+.input-grp {
+  width: 100%;
+  height: 6.2rem;
+  display: flex;
+  align-items: center;
+  position: relative;
+
+  label {
+    width: 3rem;
+    font-size: 16px;
+    position: absolute;
+    left: 10px;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+  }
+
+  input {
+    align-items: center;
+    color: #212121;
+    display: flex;
+    font-family: Pretendard, sans-serif;
+    font-size: 1.6rem;
+    font-weight: 500;
+    gap: 1rem;
+    letter-spacing: 0.0016rem;
+    line-height: 2.4rem;
+    padding: 3rem 1.2rem 1rem;
+    width: 25rem;
+
+    border-radius: 0.5rem;
+    border: 1px solid var(--neutral-gray-500);
+    background: #fff;
+  }
+
+  select {
+    width: 25rem;
+    display: flex;
+    padding: 1.6rem 1rem;
+    align-items: center;
+    gap: 0.5rem;
+
+    border-radius: 0.5rem;
+    border: 1px solid var(--neutral-gray-500);
+    background: #fff;
+
+    color: var(--neutral-gray-500);
+    font-family: Pretendard, sans-serif;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2.4rem;
+    letter-spacing: 0.0016rem;
+
+    &:focus {
+      border: 1px solid var(--primary-ivy-green-600);
+    }
+  }
+}
